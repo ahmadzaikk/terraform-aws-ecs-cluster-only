@@ -1,7 +1,6 @@
 
 module "enabled" {
   source  = "git::https://git@github.com/ahmadzaikk/terraform-local-boolean.git"
-  version = "0.1.2"
   value   = "${var.enabled}"
 }
 
